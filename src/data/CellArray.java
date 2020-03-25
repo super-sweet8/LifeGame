@@ -50,9 +50,6 @@ public class CellArray {
 		return -1;
 	}
 	
-	public void  setCell(int x,int y,int cell) {
-		this.cellArray[x][y]=cell;
-	}
 	
 	
 	

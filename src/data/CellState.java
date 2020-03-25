@@ -16,3 +16,7 @@ public enum CellState {
         return value;
     }
 }
+
+public void  setCell(int x,int y,int cell) {
+	this.cellArray[x][y]=cell;
+}
