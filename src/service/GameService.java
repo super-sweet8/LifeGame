@@ -8,6 +8,7 @@ import data.CellState;
 public class GameService {	
 	public static int[] temp= {-1,0,1};
 	//在程序开始之前，为了让程序能识别细胞的生死，我们定义了temp，赋给其-1,0,1三种状态分别表示遇到边界，生和死，以方便判断细胞的状态
+
 	//初始化矩阵中所有细胞,随机赋予它们的生死
 	public static CellArray initMap(int row,int col ) {
 		CellArray cells=new CellArray(row,col);
