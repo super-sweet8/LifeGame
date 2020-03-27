@@ -1,7 +1,7 @@
 package data;
 
 /**
- * 细胞状�??
+ * ϸ��״̬
  */
 public enum CellState {
     DEAD(0),
